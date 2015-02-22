@@ -29,3 +29,7 @@ It then finds the indices of all variables containing the character strings "-me
 It then uses this new data frame to calculate the average of the variables containing information about means and standard deviations of measurements by the intersections of activites and subjects. It writes the results to yet another data frame (final_frame).
 
 It then labels the columns of the final_frame data frame with appropriate variable names.
+
+To view the final data frame in R, you can use the following code (you will need to fill in the appropriate arguments):
+
+data <- read.table(file_path, header = TRUE)
